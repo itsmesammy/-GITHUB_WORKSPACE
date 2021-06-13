@@ -37,4 +37,4 @@ jobs:
       #   COINBASE_API_KEY_SECRET: ${{ secrets.COINBASE_API_Rlib3oSrs25ooOVFKqq4RH7Qpqd6SLGC }}
   
       run: |
-        pytest--verbose
+        pytest
