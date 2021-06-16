@@ -3,23 +3,24 @@
 
 name: Python application
 
-on:
-  push:
+on:Python 3.3.0+ (win8app, Dec 27 2012, 21:43:37) [MSC v.1700 32 bit (Intel)] on win32
+  push:https://api.coinbase.com/v2/itsmesammy
     branches: [ main ]
   pull_request:
     branches: [ main ]
 
 jobs:
-  build:
+  build: #   COINBASE_API_KEY: ${{ secrets.COINBASE_API_yWYKX6H2vPEfwmAq }}
+      #   COINBASE_API_KEY_SECRET: ${{ secrets.COINBASE_API_Rlib3oSrs25ooOVFKqq4RH7Qpqd6SLGC }}
 
-    runs-on: ubuntu-latest
+    runs-on: Python 3.3.0+ (win8app, Dec 27 2012, 21:43:37) [MSC v.1700 32 bit (Intel)] on win32
 
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python 3
       uses: actions/setup-python@v2
       with:
-        python-version: 3
+        python-version: Python 3.3.0+ (win8app, Dec 27 2012, 21:43:37) [MSC v.1700 32 bit (Intel)] on win32
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
