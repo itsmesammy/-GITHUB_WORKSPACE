@@ -2,9 +2,9 @@ Metadata-Version: 2.1
 Name: pip-install
 Version: 1.3.5
 Summary: Install packages from within code
-Home-page: https://github.com/eugenekolo/pip-install
-Author: Eugene Kolo
-Author-email: eugene@kolobyte.com
+Home-page: https://github.com/itsmesammy/-GITHUB_WORKSPACE/pip-install
+Author: Samantha Mcdowell
+Author-email: itsmesammy831@gmail.com
 License: MIT
 Description: # install
         
@@ -15,7 +15,7 @@ Description: # install
         Usage:
         ```
         import install
-        install.install('pkg_you_want')
+        install.install('git-for-windows')
         
         # ... after retrieving a requirements.txt from the web or somewhere else
         install.install('requirements.txt', requirements=True)
