@@ -1,14 +1,14 @@
 # This is a basic workflow that is manually triggered
 
-name: Manual workflow
+name: samantha@MYPC
 
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
-on:
+on:MINGW64
   workflow_dispatch:
     # Inputs the workflow accepts.
-    inputs:
-      name:
+    inputs:gh install https://cli.github.com/api.coinbase.com/v2/itsmesammy
+      name:github
         # Friendly description to be shown in the UI instead of 'name'
         description: 'Person to greet'
         # Default value if no value is explicitly provided
@@ -19,7 +19,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "greet"
-  greet:
+  greet:itsmesammy
     # The type of runner that the job will run on
     runs-on: MINGW64:/c/Users/samantha/Documents/GitHub
 
