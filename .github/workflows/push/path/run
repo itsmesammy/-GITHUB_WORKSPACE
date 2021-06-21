@@ -12,7 +12,7 @@ on:
         # Friendly description to be shown in the UI instead of 'name'
         description: 'Person to greet'
         # Default value if no value is explicitly provided
-        default: 'World'
+        default: main
         # Input has to be provided for the workflow to run
         required: true
 
@@ -21,10 +21,10 @@ jobs:
   # This workflow contains a single job called "greet"
   greet:
     # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+    runs-on: MINGW64:/c/Users/samantha/Documents/GitHub
 
     # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
+    steps: push 
     # Runs a single command using the runners shell
-    - name: Send greeting
-      run: echo "Hello ${{ github.event.inputs.name }}"
+    name: gitforwindows 
+     run:$ gh run {{./config.cmd --url https://github.com/itsmesammy/-GITHUB_WORKSPACE --token AHCLTALVEE36P3XPTI7CHQ3A2BCIM }}"
